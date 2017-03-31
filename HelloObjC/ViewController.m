@@ -25,5 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onSwitchButtonClick:(id)sender {
+    _helloLabel.hidden = !_helloLabel.hidden;
+}
 
 @end
