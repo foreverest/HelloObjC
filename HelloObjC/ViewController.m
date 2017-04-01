@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+@import MobileCenterCrashes;
 
 @interface ViewController ()
 
@@ -27,6 +28,10 @@
 
 - (IBAction)onSwitchButtonClick:(id)sender {
     _helloLabel.hidden = !_helloLabel.hidden;
+}
+
+- (IBAction)crashButtonOnClick:(id)sender {
+    [MSCrashes generateTestCrash];
 }
 
 @end

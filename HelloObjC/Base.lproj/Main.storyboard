@@ -36,6 +36,14 @@
                                     <action selector="onSwitchButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXg-CN-t1g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkY-Vm-n1A">
+                                <rect key="frame" x="119.23798627002293" y="282" width="135" height="29.999999999999972"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Crash"/>
+                                <connections>
+                                    <action selector="crashButtonOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1C7-dC-qNi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
